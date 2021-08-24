@@ -10,6 +10,7 @@ import {
   Home as HomeIcon,
   Plot as PlotIcon,
   Pool as PoolIcon,
+  Nft as NftIcon,
 } from '@flora/icons';
 import { Flex, SideBarItem } from '@flora/core';
 import { logOut } from '../../modules/message';
@@ -58,6 +59,11 @@ export default function DashboardSideBar() {
           to="/dashboard/pool"
           icon={<PoolIcon fontSize="large" />}
           title={<Trans>Pool</Trans>}
+        />
+        <SideBarItem
+          to="/dashboard/recoverNft"
+          icon={<NftIcon fontSize="large" />}
+          title={<Trans>fd_cli</Trans>}
         />
         <SideBarItem
           to="/"

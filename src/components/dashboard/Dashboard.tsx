@@ -16,6 +16,7 @@ import Plot from '../plot/Plot';
 import Farm from '../farm/Farm';
 import Pool from '../pool/Pool';
 import Block from '../block/Block';
+import RecoverNft from '../recoverNFTCoin/RecoverNft';
 import DashboardSideBar from './DashboardSideBar';
 import { DashboardTitleTarget } from './DashboardTitle';
 import TradeManager from '../trading/TradeManager';
@@ -98,6 +99,9 @@ export default function Dashboard() {
           </Route>
           <Route path={`${path}/pool`}>
             <Pool />
+          </Route>
+          <Route path={`${path}/recoverNft`}>
+            <RecoverNft />
           </Route>
           <Route path={`${path}/trade`}>
             <TradeManager />
