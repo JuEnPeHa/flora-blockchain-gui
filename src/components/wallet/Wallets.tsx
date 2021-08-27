@@ -3,12 +3,7 @@ import { Trans } from '@lingui/macro';
 // import styled from 'styled-components';
 import {
   Box,
-  /*
-  List,
-  Divider,
-  ListItem,
-  ListItemText,
-  */
+  /*  List,  Divider,  ListItem,  ListItemText,  */
   Typography,
 } from '@material-ui/core';
 // import { useRouteMatch, useHistory } from 'react-router';
@@ -17,11 +12,7 @@ import { FormatLargeNumber } from '@flora/core';
 import StandardWallet from './standard/WalletStandard';
 /*
 import {
-  changeWalletMenu,
-  standardWallet,
-  CCWallet,
-  RLWallet,
-  DIDWallet,
+  changeWalletMenu,  standardWallet,  CCWallet,  RLWallet,  DIDWallet,
 } from '../../modules/walletMenu';
 */
 import type { RootState } from '../../modules/rootReducer';
