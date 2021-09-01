@@ -3,13 +3,7 @@ import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
 import { useFormContext } from 'react-hook-form';
 import { CardStep, ConfirmDialog, Link, Select, StateColor } from '@flora/core';
-import {
-  Grid,
-  FormControl,
-  Typography,
-  InputLabel,
-  MenuItem,
-  FormHelperText,
+import {Grid, FormControl, Typography, InputLabel, MenuItem, FormHelperText,
 } from '@material-ui/core';
 import { plotSizeOptions } from '../../../constants/plotSizes';
 import useOpenDialog from '../../../hooks/useOpenDialog';
