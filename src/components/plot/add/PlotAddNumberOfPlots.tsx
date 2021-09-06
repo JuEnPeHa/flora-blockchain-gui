@@ -1,25 +1,9 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import {
-  AdvancedOptions,
-  CardStep,
-  Select,
-  TextField,
-  RadioGroup,
-  Flex,
-  Checkbox,
-  TooltipIcon,
-} from '@flora/core';
-import {
-  Grid,
-  FormControl,
-  InputLabel,
-  MenuItem,
-  InputAdornment,
-  Typography,
-  FormControlLabel,
-  Radio,
-} from '@material-ui/core';
+import {AdvancedOptions, CardStep, Select, TextField, RadioGroup, Flex,
+  Checkbox, TooltipIcon,} from '@flora/core';
+import {Grid, FormControl, InputLabel, MenuItem, InputAdornment, Typography,
+  FormControlLabel, Radio,} from '@material-ui/core';
 import { useFormContext } from 'react-hook-form';
 
 const plotCountOptions: number[] = [];
